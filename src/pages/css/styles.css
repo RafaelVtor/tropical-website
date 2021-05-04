@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.cover {
+  min-width: 360px;
+  height: 630px;
+}
+
+.cover1 {
+  background: url("../../img/2417001.jpg") no-repeat center fixed;
+  background-size: cover;
+
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigationBar {
+  font-size: 16px;
+  font-family: monospace;
+
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  line-height: 20px;
+
+  display: flex;
+  flex-direction: row;
+
+  text-align: right;
+}
+.navigationBar li {
+  float: right;
+}
+.navigationBar li a {
+  display: block;
+  padding: 16px;
+
+  text-decoration: none;
+  color: rgb(119, 221, 124);
+  text-shadow: 0.5px 0.5px black;
+
+  transition: top 0.3s;
+}
+.ola {
+  font-family: sans-serif;
+  font-size: 44px;
+  color: white;
+  text-align: center;
+  text-shadow: 0.5px 0.5px black;
+  background: none;
+}
+.venha {
+  font-family: sans-serif;
+  font-size: 34px;
+  color: white;
+  text-align: center;
+  text-shadow: 0.5px 0.5px black;
+}
+
+.cover2 {
+  background: rgb(255, 174, 0);
+  background-size: cover;
+
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.cover2 .contentBio {
+  font-size: 24px;
+  color: white;
+}
+
+.cover2 .imageFace {
+  width: 400px;
+
+  padding: 50px;
+}
+
+.cover3 {
+  background: url("../../img/42.jpg") no-repeat center fixed green;
+  background-size: cover;
+
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.cover4 {
+  background: url("../../img/bordado.jpg") no-repeat center fixed green;
+  background-size: cover;
+
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.cover5 {
+  background-image: radial-gradient(
+    ellipse farthest-corner at 45px 45px,
+    #ffd000 0%,
+    #ff0000 95%
+  );
+  background-size: cover;
+
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}

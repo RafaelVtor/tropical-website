@@ -1,0 +1,25 @@
+.navigationBar {
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  width: 100%;
+  height: 80px;
+  padding: 0 80px 0 80px;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+
+  opacity: 1;
+}
+
+.navigationBar > nav > a {
+  padding-left: 40px;
+  color: rgb(196, 9, 9);
+}
+
+.navigationBar > img {
+  width: 60px;
+}

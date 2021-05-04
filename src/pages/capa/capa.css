@@ -1,0 +1,11 @@
+#home {
+}
+#home > div > h1 {
+  margin-bottom: 20px;
+  font-family: Pacifico, cursive;
+  font-size: 70px;
+}
+
+#home > div > p {
+  font-family: Roboto, sans-serif;
+}

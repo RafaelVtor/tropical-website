@@ -1,0 +1,17 @@
+#sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+}
+
+#sobre h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#sobre p {
+  font-weight: 400;
+  text-indent: 30px;
+}
