@@ -1,9 +1,14 @@
 #home {
+  width: 100%;
 }
 #home > div > h1 {
   margin-bottom: 20px;
   font-family: Pacifico, cursive;
   font-size: 70px;
+}
+
+.ola {
+  width: 100%;
 }
 
 #home > div > p {

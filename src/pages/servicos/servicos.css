@@ -1,8 +1,9 @@
 #servicos {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  padding-top: 100px;
+  justify-content: center;
+  padding-top: auto;
+  padding: 30px;
 
   font-family: Roboto, sans-serif;
 }
@@ -12,7 +13,6 @@
   color: rgb(0, 0, 0);
   font-size: 42px;
 
-  padding: 100px;
   padding-top: 0px;
   padding-bottom: 20px;
   margin-bottom: 0;
@@ -24,14 +24,15 @@
   justify-content: center;
 
   width: 100%;
-  height: 350px;
+  
 
   font-family: Roboto, sans-serif;
   color: rgb(0, 0, 0);
 }
 
 #servicos .servicos-detalhes > div {
-  margin: 30px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 #servicos .servicos-detalhes h5 {

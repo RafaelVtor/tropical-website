@@ -1,22 +1,29 @@
 #contato {
   width: 100%;
   align-items: center;
-  justify-content: center;
-}
-.contato-informacao {
-  display: flex;
-
   justify-content: space-between;
-  font-family: Roboto, sans-serif;
+  
+}
+.contato-informacao { 
+  display: flex;
+  justify-content: space-between;
+
+  min-width: 300px;
+  font-family: Roboto, sans-serif;  
 }
 .contato-informacao div {
-  margin-right: 90px;
+  
 }
 .mensagem-contato {
-  width: 600px;
+ 
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
   color: #242222;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 30px;
+  min-width: 40%;
 }
 .mensagem-contato h3 {
   font-family: Roboto, sans-serif;
@@ -70,10 +77,12 @@ label {
 #contato .mensagem-contato .formulario > button:hover {
   background: #b5cc00;
 }
-
-#contato .contato-informacao {
+.informacao-redes{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  min-width: 60%
 }
-
 #contato .contato-informacao .informacao-redes > div {
   display: flex;
   align-items: center;
@@ -92,6 +101,6 @@ img {
   width: 40px;
   margin-left: 14px;
 }
-img:hover {
+.informacao-redes > div a img:hover {
   width: 42px;
 }

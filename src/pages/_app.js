@@ -1,6 +1,7 @@
 import './css/styles.css'
 import './css/reset.css'
 
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './barraDeNavegacao/barraDeNavegacao.css'
 import './capa/capa.css'
 import './portfolio/portfolio.css'
